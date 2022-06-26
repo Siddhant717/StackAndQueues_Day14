@@ -20,7 +20,7 @@ namespace DataStructure
 		{
 			if (top == capacity - 1) 
 			{
-				Console.WriteLine("Stack overFlow");
+				Console.WriteLine("Stack overFlow.");
 				return false;
 			}
 			obj[++top] = data;  
